@@ -1,7 +1,12 @@
 package com.example.demo1.service;
 
-import java.util.Optional;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
+import com.example.demo1.domain.Comment;
 import com.example.demo1.domain.Movie;
 import com.example.demo1.exception.ResourceNotFoundException;
 import com.example.demo1.repository.CommentRepository;

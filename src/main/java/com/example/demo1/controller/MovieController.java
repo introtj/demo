@@ -1,9 +1,6 @@
 package com.example.demo1.controller;
 
-import java.util.Optional;
-
 import com.example.demo1.domain.Movie;
-import com.example.demo1.exception.ResourceNotFoundException;
 import com.example.demo1.service.MovieService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
